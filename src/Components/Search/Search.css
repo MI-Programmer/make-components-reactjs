@@ -1,0 +1,23 @@
+.searchContainer {
+  padding: 20px 0;
+  width: 100%;
+  height: 300px;
+  background: #dcd0c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.searchContainer input {
+  width: 300px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  outline: 0;
+}
+
+.searchContainer ul {
+  width: 100px;
+  margin-top: 20px;
+  overflow: auto;
+  cursor: pointer;
+}

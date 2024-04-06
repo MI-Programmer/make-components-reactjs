@@ -1,0 +1,74 @@
+.accordian {
+  background: #dcd0c0;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordian .main {
+  margin: 20px 0 20px;
+  text-align: center;
+}
+
+.accordian .main .box {
+  background: #a69a70;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto 20px;
+}
+
+.accordian .main .box .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.accordian .main .box .title h3 {
+  width: 80%;
+}
+
+.accordian .main .box .title span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  color: #a69a70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.accordian .main .box .content {
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-align: justify;
+  width: 90%;
+}
+
+.accordian .main h2 {
+  color: #000;
+}
+
+.accordian .main .btn-multi-selection {
+  display: block;
+  margin: 20px auto 20px;
+  padding: 10px 30px;
+  background: #a69a70;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+:root {
+  --text-color: #000;
+  --bg-color: #fff;
+  --font-size: 30px;
+
+  [dataTheme="dark"] {
+    --text-color: #fff;
+    --bg-color: #000;
+  }
+
+  [dataFontSize="big"] {
+    --font-size: 50px;
+  }
+}
+
+.containerLightDarkMode {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 10px;
+  transition: all 0.5s;
+}
+
+.containerLightDarkMode h1 {
+  font-size: var(--font-size);
+  transition: 0.5s;
+}
+
+.containerLightDarkMode button {
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 10px 40px;
+  border: 2px solid var(--text-color);
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
