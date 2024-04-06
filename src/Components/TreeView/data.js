@@ -87,7 +87,7 @@ const menus = [
         to: "starSlider",
       },
       {
-        label: "5.Load ",
+        label: "5.Load More Data",
         to: "loadMoreData",
       },
 
